@@ -1,5 +1,5 @@
 variable "aws_region" {
-  
+  default = "ap-northeast-2"
 }
 
 variable "app_name" {
@@ -16,5 +16,5 @@ variable "private_subnets" {
 }
 
 variable "availability_zones" {
-  default = ["ap-northeast-1a", "ap-northeast-1b"]
+  default = ["ap-northeast-2a", "ap-northeast-2b"]
 }
